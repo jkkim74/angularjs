@@ -1,4 +1,4 @@
-﻿[{ "action": "Buy Cars", "done": false },
+﻿[{ "action": "Buy Car", "done": false },
  { "action": "Get Building", "done": false },
  { "action": "Collect stamps", "done": true },
  { "action": "Call Jack", "done": false }]

@@ -8,7 +8,8 @@
             name: "Adam",
             weather: "sunny",
         };
-        
+        console.log("name : " + myData.name);
+		console.log("weather : " + myData["weather"]);
         delete myData.name;
         delete myData["weather"];
         delete myData.SayHello;  

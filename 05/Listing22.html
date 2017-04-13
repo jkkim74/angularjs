@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Example</title>
+    <script src="angular.js"></script>
+    <script type="text/javascript">        
+        var myData = {
+            name: "Adam",
+            weather: "sunny",
+        };
+        console.log("name : " + myData.name);
+		console.log("weather : " + myData["weather"]);
+        delete myData.name;
+        delete myData["weather"];
+        delete myData.SayHello; 
+		console.log("after name : " + myData.name);
+		console.log("after weather : " + myData["weather"]);
+    </script>        
+</head>
+<body>
+    This is a simple example
+</body>
+</html>

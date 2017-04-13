@@ -35,7 +35,7 @@ angular.module("sportsStore")
             },
             {
                 name: "Product #8", description: "A product",
-                category: "Category #4", price: 202
+                category: "Category #3", price: 202
             }]
     };
 });
