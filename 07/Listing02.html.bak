@@ -19,7 +19,7 @@
 
     <div class="alert alert-danger" ng-show="data.error">
         Error ({{data.error.status}}). The product data was not loaded. 
-        <a href="app.html" class="alert-link">Click here to try again</a>
+        <a href="/07/app.html" class="alert-link">Click here to try again</a>
     </div>
 
     <div class="panel panel-default row" ng-controller="productListCtrl" 
