@@ -10,7 +10,7 @@
     </script>
     <script src="controllers/sportsStore.js"></script>
     <script src="filters/customFilters.js"></script>
-    <script src="controllers/productListControllers.js"></script>
+    <script src="controllers_new/productListControllers.js"></script>
 </head>
 <body ng-controller="sportsStoreCtrl">
     <div class="navbar navbar-inverse">
@@ -19,7 +19,7 @@
 
     <div class="alert alert-danger" ng-show="data.error">
         Error ({{data.error.status}}). The product data was not loaded. 
-        <a href="/07/app.html" class="alert-link">Click here to try again</a>
+        <a href="app.html" class="alert-link">Click here to try again</a>
     </div>
 
     <div class="panel panel-default row" ng-controller="productListCtrl" 
@@ -34,9 +34,7 @@
             </a>
         </div>
         <div class="col-xs-8">
-            <div class="well"
-                 ng-repeat=
-         "item in data.products | filter:categoryFilterFn | range:selectedPage:pageSize">
+            <div class="well" ng-repeat="item in data.products | filter:categoryFilterFn | range:selectedPage:pageSize">
                 <h3>
                     <strong>{{item.name}}</strong>
                     <span class="pull-right label label-primary">
